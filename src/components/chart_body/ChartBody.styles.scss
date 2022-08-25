@@ -1,0 +1,32 @@
+.chart-body {
+  border-radius: 0.5rem;
+  background-color: var(--color-very-pale-orange);
+  padding-inline: 1.25rem;
+  padding-block: 1.5rem;
+  color: var(--color-dark-brown);
+
+  & > h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  & .total {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    & span {
+      letter-spacing: -0.4px;
+    }
+
+    & h2 {
+      font-size: 1.875rem;
+    }
+
+    & .percent {
+      display: block;
+      text-align: right;
+      font-weight: 700;
+    }
+  }
+}
