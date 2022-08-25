@@ -1,0 +1,23 @@
+.chart-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--color-soft-red);
+  border-radius: 0.5rem;
+  padding: 1.25rem;
+  color: var(--color-very-pale-orange);
+
+  & span {
+    letter-spacing: -0.6px;
+  }
+
+  & h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  & > svg {
+    height: 2.5rem;
+    width: 3.75rem;
+  }
+}
