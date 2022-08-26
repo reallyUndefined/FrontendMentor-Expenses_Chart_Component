@@ -30,12 +30,12 @@
         background-color: var(--color-soft-red);
       }
 
-      .max-bar {
+      .today {
         background-color: var(--color-cyan);
       }
 
       .bar,
-      .max-bar {
+      .today {
         span {
           display: none;
         }
@@ -81,7 +81,7 @@
         }
       }
 
-      .bar-container .max-bar:hover {
+      .bar-container .today:hover {
         background-color: var(--color-cyan-hover);
       }
     }

@@ -10,6 +10,9 @@ function Chart({ data }: ChartProps) {
     ...expData,
     percent: (expData.amount / maxAmt) * 100,
   }));
+  const today = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"][
+    new Date().getDay()
+  ];
 
   return (
     <div className="chart">
@@ -17,7 +20,7 @@ function Chart({ data }: ChartProps) {
         <div key={day} className="bar-grid">
           <div className="bar-container">
             <div
-              className={`bar ${amount === maxAmt && "max-bar"}`}
+              className={`bar ${day === today && "today"}`}
               style={{ height: percent + "%" }}
             >
               <span>{`$${amount}`}</span>
