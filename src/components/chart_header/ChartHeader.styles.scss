@@ -1,3 +1,5 @@
+@import "../../mixins";
+
 .chart-header {
   display: flex;
   align-items: center;
@@ -19,5 +21,24 @@
   & > svg {
     height: 2.5rem;
     width: 3.75rem;
+  }
+
+  @include breakpoint($first) {
+    border-radius: 1.125rem;
+    padding-inline: 2rem;
+    padding-block: 1.5rem;
+
+    & span {
+      letter-spacing: 0;
+    }
+
+    & h1 {
+      font-size: 2rem;
+    }
+
+    & > svg {
+      height: 3rem;
+      width: 4.5rem;
+    }
   }
 }

@@ -14,7 +14,7 @@ function Chart({ data }: ChartProps) {
   return (
     <div className="chart">
       {chartData.map(({ amount, day, percent }) => (
-        <div className="bar-grid">
+        <div key={day} className="bar-grid">
           <div className="bar-container">
             <div
               className="bar"

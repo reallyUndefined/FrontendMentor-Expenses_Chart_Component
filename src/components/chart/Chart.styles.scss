@@ -1,3 +1,5 @@
+@import "../../mixins";
+
 .chart {
   margin-block: 1.5rem;
   padding-block: 1.5rem;
@@ -11,6 +13,11 @@
     grid-template-rows: 1fr min-content;
     gap: 0.75rem;
 
+    .legend {
+      text-align: center;
+      letter-spacing: -0.4px;
+    }
+
     .bar-container {
       height: 9.375rem;
       display: flex;
@@ -18,7 +25,21 @@
 
       .bar {
         width: 100%;
-        border-radius: 2px;
+        border-radius: 0.125rem;
+      }
+    }
+  }
+
+  @include breakpoint($first) {
+    margin-block: 2rem;
+    padding-block: 2rem;
+    gap: 1.125rem;
+
+    & .bar-grid {
+      gap: 0.5rem;
+
+      .bar-container .bar {
+        border-radius: 0.25rem;
       }
     }
   }
