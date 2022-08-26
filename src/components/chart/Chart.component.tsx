@@ -17,15 +17,11 @@ function Chart({ data }: ChartProps) {
         <div key={day} className="bar-grid">
           <div className="bar-container">
             <div
-              className="bar"
-              style={{
-                height: percent + "%",
-                backgroundColor:
-                  amount === maxAmt
-                    ? "var(--color-cyan)"
-                    : "var(--color-soft-red)",
-              }}
-            ></div>
+              className={`bar ${amount === maxAmt && "max-bar"}`}
+              style={{ height: percent + "%" }}
+            >
+              <span>{`$${amount}`}</span>
+            </div>
           </div>
           <span className="legend">{day}</span>
         </div>

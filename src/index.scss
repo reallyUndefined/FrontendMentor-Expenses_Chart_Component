@@ -10,7 +10,9 @@
 
 :root {
   --color-soft-red: hsl(10, 79%, 65%);
+  --color-soft-red-hover: hsl(10, 79%, 65%, 0.75);
   --color-cyan: hsl(186, 34%, 60%);
+  --color-cyan-hover: hsla(187, 34%, 60%, 0.75);
 
   --color-dark-brown: hsl(25, 47%, 15%);
   --color-medium-brown: hsl(28, 10%, 53%);
