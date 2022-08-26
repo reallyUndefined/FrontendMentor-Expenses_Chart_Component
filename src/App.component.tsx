@@ -5,9 +5,9 @@ import data from "./data.json";
 
 function App() {
   return (
-    <div className="app">
+    <main className="app">
       <ExpenseChart data={data} />
-    </div>
+    </main>
   );
 }
 

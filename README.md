@@ -33,9 +33,11 @@ This is a solution to the [Expenses Chart Component app challenge on Frontend Me
 
 ### Built with
 
+- React
+- Typescript
 - Semantic HTML5 markup
+- SCSS
 - CSS custom properties
-- CSS Grid
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
