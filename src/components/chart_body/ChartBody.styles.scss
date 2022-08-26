@@ -39,7 +39,8 @@
   @include breakpoint($first) {
     border-radius: 1.125rem;
     padding-inline: 2.5rem;
-    padding-block: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2.5rem;
 
     & > h2 {
       font-size: 2rem;

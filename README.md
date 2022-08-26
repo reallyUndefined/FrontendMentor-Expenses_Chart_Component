@@ -1,4 +1,41 @@
-# Getting Started with Create React App
+# Frontend Mentor - Expenses Chart Component app solution
+
+This is a solution to the [Expenses Chart Component app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+
+## Table of contents
+
+- [Frontend Mentor - Expenses Chart Component app solution](#frontend-mentor---expenses-chart-component-app-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+  - [Available Scripts](#available-scripts)
+    - [`yarn start`](#yarn-start)
+    - [`yarn test`](#yarn-test)
+    - [`yarn build`](#yarn-build)
+    - [`yarn eject`](#yarn-eject)
+  - [Learn More](#learn-more)
+
+## Overview
+
+### Screenshot
+
+![screenshot](./screenshots/screenshot-1.png)
+
+### Links
+
+- Solution URL: [Click here](https://www.frontendmentor.io/solutions/expenses-chart-component-with-react-jghQZzbiYP)
+- Live Site URL: [Click here](https://undefined-fm-expenses-chart.netlify.app/)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- CSS Grid
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
